@@ -1,0 +1,479 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.8f1 (996aee41dc57) revision 10054382'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16280 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Work ()/FMP WORK/Isometric Level
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63300
+Successfully changed project path to: E:/Work ()/FMP WORK/Isometric Level
+E:/Work ()/FMP WORK/Isometric Level
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23436] Host "[IP] 192.168.1.151 [Port] 0 [Flags] 2 [Guid] 3433930065 [EditorId] 3433930065 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3O1H008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23436] Host "[IP] 192.168.1.151 [Port] 0 [Flags] 2 [Guid] 3433930065 [EditorId] 3433930065 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3O1H008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 18.56 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.8f1 (996aee41dc57)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Work ()/FMP WORK/Isometric Level/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8056 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.2.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004101 seconds.
+- Loaded All Assemblies, in  0.534 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (282ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+				TypeCache.Initialize (246ms)
+					TypeCache.ScanAssembly (243ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Work ()\FMP WORK\Isometric Level\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Work ()\FMP WORK\Isometric Level\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.382 seconds
+Refreshing native plugins compatible for Editor in 6.01 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (262ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (1119ms)
+			LoadAssemblies (363ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (835ms)
+				TypeCache.Initialize (462ms)
+					TypeCache.ScanAssembly (456ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.92 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.3 MB). Loaded Objects now: 4740.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 5.352700 ms (FindLiveObjects: 0.478300 ms CreateObjectMapping: 0.871500 ms MarkObjects: 3.652000 ms  DeleteObjects: 0.349900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27369.934528 seconds.
+  path: Assets/Overlay.cs
+  artifactKey: Guid(a46712b9593ed8140ae78a814c1bbad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Overlay.cs using Guid(a46712b9593ed8140ae78a814c1bbad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa262641445792168430bf1e21f62790') in 0.001871 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 113.494625 seconds.
+  path: Assets/Iso Tileset/iso sprq 1.png
+  artifactKey: Guid(165db53dccf6f5f419b542e351cd7d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/iso sprq 1.png using Guid(165db53dccf6f5f419b542e351cd7d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fdb21677b174deb4d7dc16c4c2c0fb') in 0.155781 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Iso Tileset/Vertical.prefab
+  artifactKey: Guid(1d945ba87909f604690445d64b32c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/Vertical.prefab using Guid(1d945ba87909f604690445d64b32c6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9840e63d8749df8f56bc75b3c301f57') in 1.269219 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 231
+========================================================================
+Received Import Request.
+  Time since last request: 7.643610 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_0.asset
+  artifactKey: Guid(6636256b6d904bf40a142124ab56ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_0.asset using Guid(6636256b6d904bf40a142124ab56ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc55acbdf747f5cd713dbf3d99caa31') in 0.232086 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_1.asset
+  artifactKey: Guid(2916e4cd111397641b3e2dbb6a4522c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_1.asset using Guid(2916e4cd111397641b3e2dbb6a4522c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067d2976a610ec512e9aba4f5510b9e0') in 0.043485 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_7.asset
+  artifactKey: Guid(475a73f5fa62b48448c5d070827a761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_7.asset using Guid(475a73f5fa62b48448c5d070827a761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e26629a24be721bbf2c6ac32d6e8db') in 0.060948 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_5.asset
+  artifactKey: Guid(109ecf04bd284b04fb772b8aef8ba9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_5.asset using Guid(109ecf04bd284b04fb772b8aef8ba9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2473672114e3632d59137db9814109d0') in 0.030548 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_11.asset
+  artifactKey: Guid(8c88ce43a68092d4db433b1601bd29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_11.asset using Guid(8c88ce43a68092d4db433b1601bd29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b4dcdc54f0058f11c3ced4a3ed2107') in 0.064282 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_12.asset
+  artifactKey: Guid(5e464542b2730344a807f4c85c39a5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_12.asset using Guid(5e464542b2730344a807f4c85c39a5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f3b2663376d4934b7219c1ec4c3e64') in 0.078073 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_20.asset
+  artifactKey: Guid(f6bc26c6b56685b45a22a756a5cd0ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_20.asset using Guid(f6bc26c6b56685b45a22a756a5cd0ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43bbc6591964c6b538bb9c8cd300a4e') in 0.022341 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_25.asset
+  artifactKey: Guid(de45c375367bba44a961b03af5259663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_25.asset using Guid(de45c375367bba44a961b03af5259663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0d94291011085b3cfa27a9ac94799') in 0.021991 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_26.asset
+  artifactKey: Guid(04a71a3595192bc49b70e35386a8878a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_26.asset using Guid(04a71a3595192bc49b70e35386a8878a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1342d42e9bd0abd0fe76bfbccea8bd47') in 0.037467 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_22.asset
+  artifactKey: Guid(bd078b1f6f509024c92b82a6c3a51422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_22.asset using Guid(bd078b1f6f509024c92b82a6c3a51422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd5d85f7eed7e43c2404955824325a5') in 0.064452 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_37.asset
+  artifactKey: Guid(4b829720a9e78bf4b97e2dfacb07e357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_37.asset using Guid(4b829720a9e78bf4b97e2dfacb07e357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89264b5695166a5be1ec08a218444c44') in 0.107538 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_40.asset
+  artifactKey: Guid(1280e9bf5571d954c866430b60808154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_40.asset using Guid(1280e9bf5571d954c866430b60808154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2bc82e7cc6c9a7bb0feffe7f2d76e5') in 0.030890 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_30.asset
+  artifactKey: Guid(af91b21ab19c478488d5eeef8e9bf416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_30.asset using Guid(af91b21ab19c478488d5eeef8e9bf416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ef7a67ef3c9f4b7436570e69d14e9e') in 0.026087 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_39.asset
+  artifactKey: Guid(b54221dc877816442b1ce992c1468c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_39.asset using Guid(b54221dc877816442b1ce992c1468c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790710c2d5fffe81ec235f179d4ac4d6') in 0.025981 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_31.asset
+  artifactKey: Guid(3ca5166c06d363b4dba9ab44a2363d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_31.asset using Guid(3ca5166c06d363b4dba9ab44a2363d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7090545d077e64ed8afc96ec4b0ae83b') in 0.025399 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_2.asset
+  artifactKey: Guid(6587b4081beff044cb1ad26251f50570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_2.asset using Guid(6587b4081beff044cb1ad26251f50570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb92738e037d71f1275e6e5f2f23d3c') in 0.032749 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_6.asset
+  artifactKey: Guid(cfca1f253346f954995585950efebeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_6.asset using Guid(cfca1f253346f954995585950efebeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0da42b40fc4a46e62f83b889449d3a0') in 0.022973 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_3.asset
+  artifactKey: Guid(6fb118f7504ce7b4a989e24c20c46ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_3.asset using Guid(6fb118f7504ce7b4a989e24c20c46ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5f36fa558b1678086e2235989c3b4b') in 0.020837 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_47.asset
+  artifactKey: Guid(0e67afbc42a86694393cf43a8f4dd58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_47.asset using Guid(0e67afbc42a86694393cf43a8f4dd58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f5e0940886a8ee025e9e3f0c393b1e') in 0.050786 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_42.asset
+  artifactKey: Guid(eb37f49386eb40b4a98e9c835413a187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_42.asset using Guid(eb37f49386eb40b4a98e9c835413a187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959b4fbe438273bb65297e9187ebf099') in 0.040579 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_34.asset
+  artifactKey: Guid(63dadadcde137864aa90bc52749dc42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_34.asset using Guid(63dadadcde137864aa90bc52749dc42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890722c61ef903a1e90943d276e677e2') in 0.038421 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_15.asset
+  artifactKey: Guid(853617a1ad3b1ba4292e70d84adf5a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_15.asset using Guid(853617a1ad3b1ba4292e70d84adf5a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef424bd44d40dd082d093c540fbf983') in 0.047001 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_43.asset
+  artifactKey: Guid(2a6bc9d140f4d2947913e72ab75ebb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_43.asset using Guid(2a6bc9d140f4d2947913e72ab75ebb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8180c404aab203dad6c050a42de2872') in 0.057228 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_19.asset
+  artifactKey: Guid(d706b14b9571a8b46a0ad45561885d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_19.asset using Guid(d706b14b9571a8b46a0ad45561885d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5ddcb74ff39133417dcf82563bf03f') in 0.027047 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_38.asset
+  artifactKey: Guid(613f0c121c6ebb8418e4234b89f20708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_38.asset using Guid(613f0c121c6ebb8418e4234b89f20708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaa08d47bbe0e5b8b63cb85b22c53a0') in 0.054556 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_45.asset
+  artifactKey: Guid(c5481ad71436ba84391485978f51f301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_45.asset using Guid(c5481ad71436ba84391485978f51f301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6b1117117400f864931ad09a0bba8b') in 0.026824 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.267641 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_49.asset
+  artifactKey: Guid(9143249aae363384e8cebae0adece84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_49.asset using Guid(9143249aae363384e8cebae0adece84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9da4618800b31943a7a20e89dd2f9eb') in 0.044514 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_51.asset
+  artifactKey: Guid(517e695a1342fb542945371850ecd4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_51.asset using Guid(517e695a1342fb542945371850ecd4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe22565ed213ba75cf66f4a1a77bcbb') in 0.131223 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_54.asset
+  artifactKey: Guid(33fa99e3cf5eb1041be2efc14129c92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_54.asset using Guid(33fa99e3cf5eb1041be2efc14129c92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9622feb24a2380cb7e02f2b8d2b35825') in 0.066121 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_56.asset
+  artifactKey: Guid(5b9b418e5fe726245bc708bb76694fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_56.asset using Guid(5b9b418e5fe726245bc708bb76694fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9137d13075baca9b2251707bbf6a6245') in 0.083118 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_62.asset
+  artifactKey: Guid(69dc9560d169610428cd1ae4a7f85be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_62.asset using Guid(69dc9560d169610428cd1ae4a7f85be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea0c02cefb6410629020cafa038ec52') in 0.139309 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_63.asset
+  artifactKey: Guid(6b3623f7d5d3b6a4db4844b427f95ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_63.asset using Guid(6b3623f7d5d3b6a4db4844b427f95ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312c500aa7afc5e093e84856d9c73c39') in 0.024021 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_52.asset
+  artifactKey: Guid(98f309cccfcf1e842bac2f08824a8635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_52.asset using Guid(98f309cccfcf1e842bac2f08824a8635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff86d543f128475369036e27d97c277') in 0.101038 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_61.asset
+  artifactKey: Guid(93f652b4bdf24cd4a8462b188fe650ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_61.asset using Guid(93f652b4bdf24cd4a8462b188fe650ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3423ae29dabfd8f5c5e88f6609656c') in 0.026107 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Iso Tileset/vetical slice/256x192 Tiles_55.asset
+  artifactKey: Guid(e895b7385af7c1b42862ead4ccc614d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iso Tileset/vetical slice/256x192 Tiles_55.asset using Guid(e895b7385af7c1b42862ead4ccc614d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c7a0c74646314f4d09bee8afb656cf') in 0.018042 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
